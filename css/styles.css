@@ -1,0 +1,358 @@
+
+/* GENERAL STYLES */
+
+
+.body-wbst {
+    font-family: 'Roboto', sans-serif;
+    width: 1600px;
+    height: 2346px;
+    background: #FFFFFF;
+    position: relative;
+
+}
+
+.list {
+    list-style: none; 
+}
+
+.link { 
+    text-decoration: none;  
+}
+.link:hover, .link:focus {
+    color:#2196F3 ; 
+}
+
+
+
+
+/* Header */
+ 
+.header {
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+/* WEbStudio */
+
+.logo-web {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: black;
+}
+
+.header-nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+
+
+
+.header-email-link  {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+    list-style: none;
+ }
+
+
+.header-tel-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+    list-style: none;  
+}
+
+/* Hero */
+
+.hero{
+    background: #2F303A;        
+} 
+   
+
+ .hero-solution {
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 136%;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}     
+  
+ /* Hero button */
+
+
+
+.hero-btn-order {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 188%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color:#FFFFFF;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.15 );
+    border-radius: 4px;
+    
+}
+.hero-btn-order:focus ,
+.hero-btn-order:hover {
+    background:transparent;
+}
+
+.hero-btn-order{
+    background:#2196F3 ;
+}
+
+
+
+ /* Peculiarities */
+
+.our-pcs-list {
+    list-style: none; 
+    
+}
+.our-pcs-list {
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.our-future{
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 171%; 
+   letter-spacing: 00.03em;
+   color: #757575;
+}
+
+.about-us{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+/* Our-team */
+
+
+.team{
+   background: #F5F4FA;
+   
+}
+ 
+.our-teams{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+/*Team-cards*/
+
+.team-cards{
+    background: #FFFFFF;
+   
+}
+.our-team-list{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    
+   
+}
+.our-team-card{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+   
+} 
+
+/* Contacts*/
+
+.cnt-adres-link{
+
+ background:#2F303A 
+}
+
+.cnt-adres-link {
+
+ list-style: none;
+ font-weight: 400;
+ font-size: 14px;
+ line-height:171% ;
+ letter-spacing: 0.03em;
+ color:#FFFFFF 
+
+}
+
+.cnt-email-link{
+
+ font-family:'Roboto';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 171% ;
+ color: 
+ rgba(255, 255, 255, 0.6);
+ list-style: none;
+    
+}
+
+.cnt-tel-link{
+
+
+ font-family:  'Roboto';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 171%;
+ letter-spacing: 0.03em;
+ color: rgba(255, 255, 255, 0.6);
+ list-style: none;
+}
+.logo-studio{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color:#FFFFFF;  
+}
+
+
+
+/* Poftfolio*/
+ .body-prtf{
+    
+    position:  relative;
+     width: 1600px;
+     height: 1880px;
+     background:#FFFFFF 
+ }
+
+.hero-btn-btn{
+
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height:162%;
+     text-align: center;
+     letter-spacing: 0.03em;
+     color: #212121;
+     background:#F5F4FA ; 
+     border-radius: 4px;
+     background:transparent;
+      
+
+     
+}
+.hero-btn-all{
+
+    
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height:162% ;
+     text-align: center;
+     letter-spacing: 0.03em;
+     color: #FFFFFF;
+     background:#2196F3 ;
+    border-radius: 4px;
+}
+.hero-btn-all:focus ,
+.hero-btn-all:hover {
+    background:transparent;
+}   
+
+
+/* Projects*/
+
+.project {
+     
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 200%;
+     letter-spacing: 0.06em;
+     color:#212121; 
+     
+}
+
+.group{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 188% ;
+    letter-spacing: 0.03em;
+    color:#757575; 
+   
+}
+
+.images{
+    list-style: none;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
