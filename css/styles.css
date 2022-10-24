@@ -147,20 +147,19 @@ body {
     font-size: 16px;
     line-height: 1.88;
     text-align: center;
+    align-items: center;
     letter-spacing: 0.06em;
-    color: var(--primary-text-color-theme-dark);
     box-shadow: 0px 4px 4px rgba(0,0,0,0.15 );
     border-radius: 4px;
-    
+    background-color:var(--accent-color);
+    color: var(--primary-text-color-theme-dark);
+    display: flex;
+    cursor: pointer;
+
 }
 .hero-btn-order:focus ,
 .hero-btn-order:hover {
-    color: var(--accent-color)
-}
-
-
-
-.hero-btn-order{
+    
     background-color:var(--order-button-background-color) ;
 }
 
@@ -168,22 +167,13 @@ body {
 
  /* Peculiarities */
 
-.our-pcs-list {
+.titel {
     list-style: none; 
     
 }
-.our-pcs-list {
-
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color:var(--primary-text-color-theme-light);
-}
 
 .our-future{
-   font-weight: 400;
+   
    font-size: 14px;
    line-height: 1.71; 
    letter-spacing: 0.03em;
@@ -214,7 +204,6 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height:1.16 ;
-    text-transform: uppercase;
     text-align: center;
 }
 
@@ -226,7 +215,6 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color:var(--primary-text-color-theme-light);
-    font-family: 'Roboto';
     text-align: center;
 
 } 
@@ -237,7 +225,7 @@ body {
     line-height:1.19;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color-theme-light);
-    font-family: 'Roboto';
+    
 } 
 
 /* Contacts*/
@@ -257,10 +245,13 @@ body {
     font-size: 14px;
     line-height: 1.71; 
 }
-.cnt-adres-link {
- 
- color:var(--primary-text-color-theme-dark);
+.adress-city {
+    color: var(--primary-text-color-theme-dark);
+}
 
+
+.cnt-footer a {
+    color: var(--third-text-color-theme-dark);
 }
 
 .cnt-email-link{
